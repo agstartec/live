@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #d7d6d6;
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+.login > label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login > label > input{
+    border: 1px solid #dcdcdc;
+    padding: 5px;
+    border-radius: 4px;    
+}
+.login > button{
+    padding: 5px;
+    background: #288d28;
+    border: none;
+    color: white;
+}
+.title{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: #696767;
+}
